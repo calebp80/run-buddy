@@ -118,9 +118,7 @@ footer a {
     font-size: 16px;
   }
   /* HERO STYLES END */
-  .intro {
-    text-align: center;
-  }
+
   .intro h2 {
     font-size: 55px;
     color: #024e76;
@@ -139,18 +137,15 @@ footer a {
   .intro p {
     /* add this alongside your other declarations */
     margin: 0 auto;
+    text-align: center;
   }
   .steps { 
-    text-align: center;
     background: #fce138;
   }
   
   .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
   }
   
@@ -182,7 +177,6 @@ footer a {
   }
   .trainers {
     Overflow: auto;
-    text-align: center;
   }
   .trainer {
     Overflow: auto;
@@ -233,9 +227,12 @@ footer a {
     border-bottom: 3px solid;
     margin-bottom: 35px;
     color: #024e76;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 auto 35px auto;
+    width: 50%;
   }
   .contact {
-      text-align: center;
       background: #024e76;
   }
   .contact-info {
@@ -288,4 +285,7 @@ footer a {
   font-style: italic;
   font-size: 55px;
   color: #fce138;
+}
+.flex-row {
+  display: flex;
 }
